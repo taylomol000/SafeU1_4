@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/manualTimer"
+            android:hint="Set Timer (minutes)"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/currentTimerSet"
+            android:layout_weight="1"
+            android:textStyle="normal|italic"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

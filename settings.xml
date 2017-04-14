@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:text="Set Timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Timer"
+            android:layout_weight="1"
+            android:onClick="onTimerClick" />
+
+        <Button
+            android:text="Help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Help"
+            android:layout_weight="1"
+            android:onClick="onHelpClick" />
+
+        <Button
+            android:text="Credits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Credits"
+            android:layout_weight="1"
+            android:onClick="onCreditsClick"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

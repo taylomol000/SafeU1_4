@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SafeU</string>
+    <string name="minutes">Minutes: </string>
+    <string name="Set_Countdown_Timer">Set Countdown Timer</string>
+    <string name="userAssignedTimerVal">userAssignedTimerVal</string>
+
+    <string name="smsNumber">4255018171</string>
+    <string name="smsMessage">Alert from: 47.5732° N, 122.6395° W</string>
+
+    <string name="explanation">NFC IS WORKING HOLY CRAP!!!!!!!</string>
+
+</resources>
